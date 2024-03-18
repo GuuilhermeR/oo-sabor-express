@@ -5,6 +5,8 @@ restaurante_praca.receber_avaliacao('Gui', 10)
 restaurante_praca.receber_avaliacao('Lais', 8)
 restaurante_praca.receber_avaliacao('Emy', 2)
 
+restaurante_gomes = Restaurante('Gomes', 'Buffet')
+
 def main():
     Restaurante.listar_restaurantes()
 
