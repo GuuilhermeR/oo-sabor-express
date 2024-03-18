@@ -7,3 +7,4 @@ class Prato(ItemCardapio): #Isso diz que o Prato é filho do ItemCardapio e que 
 
     def __str__(self):
         return self._nome
+    
