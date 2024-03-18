@@ -4,3 +4,6 @@ class Prato(ItemCardapio): #Isso diz que o Prato é filho do ItemCardapio e que 
     def __init__(self, nome, preco, descricao):
         super().__init__(nome, preco) #O super ele permite que acessamos as informações de outras classes (métodos e atributos).
         self._descricacao=descricao
+        
+    def __str__(self):
+        return self._nome
